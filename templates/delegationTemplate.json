@@ -1,0 +1,41 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {},
+    "variables": {
+        "mspOfferName": "Azure Lighthouse Demo",
+        "mspOfferDescription": "Demonstrates cross-tenant management capabilities",
+        "managedByTenantId": "REPLACE_WITH_MANAGING_TENANT_ID",
+        "authorizations": [
+            {
+                "principalId": "REPLACE_WITH_PRINCIPAL_ID",
+                "principalIdDisplayName": "Demo Admin",
+                "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+            }
+        ]
+    },
+    "resources": [
+        {
+            "type": "Microsoft.ManagedServices/registrationDefinitions",
+            "apiVersion": "2022-10-01",
+            "name": "[guid(variables('mspOfferName'), 'definition')]",
+            "properties": {
+                "registrationDefinitionName": "[variables('mspOfferName')]",
+                "description": "[variables('mspOfferDescription')]",
+                "managedByTenantId": "[variables('managedByTenantId')]",
+                "authorizations": "[variables('authorizations')]"
+            }
+        },
+        {
+            "type": "Microsoft.ManagedServices/registrationAssignments",
+            "apiVersion": "2022-10-01",
+            "name": "[guid(variables('mspOfferName'), 'assignment')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.ManagedServices/registrationDefinitions', guid(variables('mspOfferName'), 'definition'))]"
+            ],
+            "properties": {
+                "registrationDefinitionId": "[resourceId('Microsoft.ManagedServices/registrationDefinitions', guid(variables('mspOfferName'), 'definition'))]"
+            }
+        }
+    ]
+}

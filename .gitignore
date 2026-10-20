@@ -1,0 +1,47 @@
+# .gitignore for Azure Lighthouse Demo
+
+# Sensitive Files
+*.local.json
+.env
+.env.local
+secrets.json
+credentials.json
+
+# PowerShell
+.vscode/
+*.ps1.backup
+*_old.ps1
+
+# Test artifacts
+test-results/
+*.log
+*.trx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Deployment artifacts
+bin/
+obj/
+*.zip
+
+# Local development
+node_modules/
+.venv/
+venv/
+
+# Azure
+.azure/
+*.publishsettings
+
+# Misc
+temp/
+tmp/
+.temp/
