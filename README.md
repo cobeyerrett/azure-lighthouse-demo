@@ -57,7 +57,8 @@ azure-lighthouse-demo/
 │   ├── cost-management/
 │   │   └── README.md                 # Cost analysis (coming soon)
 │   ├── resource-graph-queries/
-│   │   └── README.md                 # Resource Graph queries (coming soon)
+│   │   ├── README.md                 # 20 Resource Graph (KQL) queries for tag-based discovery
+│   │   └── query-helper-functions.ps1 # PowerShell helper functions
 │   └── fabric-gateway/
 │       └── README.md                 # Fabric + Gateway (coming soon)
 ├── demo-playbooks/
