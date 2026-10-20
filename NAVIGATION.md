@@ -22,6 +22,10 @@ Use this page to quickly find what you need.
   - Fabric with gateway
   - Cost management
   - App modernization
+- **Auto-delegate subscriptions at scale:** [AUTO_DELEGATION_POLICY.md](docs/AUTO_DELEGATION_POLICY.md)
+  - Using Azure Policy with deployIfNotExists
+  - Auto-onboard new subscriptions
+  - Zero-touch management group delegation
 
 ### 🐛 Fix Issues
 - **Troubleshoot problems:** [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)
@@ -71,6 +75,11 @@ Use this page to quickly find what you need.
   - Fabric with gateway
   - Cost management
   - App modernization
+- **[AUTO_DELEGATION_POLICY.md](docs/AUTO_DELEGATION_POLICY.md)** - Scale Lighthouse
+  - Using Azure Policy deployIfNotExists
+  - Auto-onboard new subscriptions
+  - Zero-touch management group delegation
+  - Troubleshooting auto-delegation
 
 ### For Troubleshooting
 - **[TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)** - Issues and solutions
