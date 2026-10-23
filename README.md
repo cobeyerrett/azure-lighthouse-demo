@@ -8,7 +8,6 @@ Complete hands-on guide and automation for setting up cross-tenant management wi
 - **PowerShell Scripts** - Automation for setup and validation
 - **Configuration Examples** - Common scenarios (policy, Defender, cost management)
 - **Documentation** - Step-by-step guides and architectural patterns
-- **Demo Playbooks** - Pre-built scenarios for customer presentations
 
 ## 🚀 Quick Start
 
