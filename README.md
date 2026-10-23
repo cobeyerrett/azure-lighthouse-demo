@@ -89,7 +89,6 @@ azure-lighthouse-demo/
 - Consolidate Sentinel incidents
 - Show unified security dashboard
 
-**Guide:** [Security Operations](examples/security-operations/)
 
 ### Scenario 4: Cost Management (10 min)
 - Query costs across customers
