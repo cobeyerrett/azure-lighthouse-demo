@@ -1,6 +1,6 @@
 # Auto-Delegation of Subscriptions to Lighthouse Using Azure Policy
 
-## Yes! Azure Policy Can Auto-Delegate Subscriptions
+## Azure Policy Can Auto-Delegate Subscriptions
 
 Azure Policy can **automatically delegate new subscriptions** to your managing tenant using the **`deployIfNotExists`** effect. This is a built-in Microsoft pattern for scaling Lighthouse across management groups.
 
