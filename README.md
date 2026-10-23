@@ -121,7 +121,6 @@ azure-lighthouse-demo/
 | [SETUP.md](docs/SETUP.md) | Complete 16-step setup guide |
 | [QUICK_START.md](docs/QUICK_START.md) | Get running in 5 minutes |
 | [MANAGING_TENANT_OPERATIONS.md](docs/MANAGING_TENANT_OPERATIONS.md) | 6 use-cases for managing tenant |
-| [ARCHITECTURE.md](docs/ARCHITECTURE.md) | Technical deep-dive |
 | [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | Common issues & solutions |
 
 ## 🛠️ Scripts
