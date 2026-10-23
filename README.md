@@ -35,6 +35,7 @@ azure-lighthouse-demo/
 ├── docs/
 │   ├── QUICK_START.md                # Get running in 5 minutes
 │   ├── SETUP.md                      # Complete 16-step guide (all phases)
+│   ├── AUTO_DELEGATION_POLICY.md     # Auto-delegate subscriptions with Azure Policy
 │   ├── MANAGING_TENANT_OPERATIONS.md # 6 operational domains with implementations
 │   ├── TROUBLESHOOTING.md            # Common issues & solutions
 │   └── ARCHITECTURE.md               # Technical deep-dive (coming soon)
@@ -56,7 +57,8 @@ azure-lighthouse-demo/
 │   ├── cost-management/
 │   │   └── README.md                 # Cost analysis (coming soon)
 │   ├── resource-graph-queries/
-│   │   └── README.md                 # Resource Graph queries (coming soon)
+│   │   ├── README.md                 # 20 Resource Graph (KQL) queries for tag-based discovery
+│   │   └── query-helper-functions.ps1 # PowerShell helper functions
 │   └── fabric-gateway/
 │       └── README.md                 # Fabric + Gateway (coming soon)
 ├── demo-playbooks/
